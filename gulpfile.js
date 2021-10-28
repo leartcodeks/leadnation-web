@@ -27,7 +27,7 @@ function cssTask() {
 
 function jsTask() {
     return src("src/public/js/main.js")
-        .pipe(babel({ presets: ["@babel/preset-env"] }))
+        // .pipe(babel({ presets: ["@babel/preset-env"] }))
         .pipe(terser())
         .pipe(dest("src/public/dist"));
 }
