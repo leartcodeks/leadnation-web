@@ -1,1 +1,1 @@
-"use strict";
+"use strict";var navbarToggler=document.querySelector("button.nav-toggle"),navLinks=document.querySelector(".nav__links");navbarToggler.addEventListener("click",(function(){navLinks.classList.toggle("active")}));

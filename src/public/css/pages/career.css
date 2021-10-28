@@ -1,0 +1,60 @@
+
+.career {
+    padding-bottom: 150px;
+}
+
+.career__banner {
+    height: 50vh;
+    width: 100%;
+    background: url('images/career-banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.career__banner .banner-title {
+    text-align: center;
+    color: #FFAF00;
+}
+
+.career__job-description {
+    margin-top: -50px !important;
+}
+
+.career__job-description .card {
+    padding: 50px 15px;
+    border-radius: 16px;
+}
+
+.career__job-description .card .title {
+    font-size: 2em;
+    padding-bottom: 16px;
+    color: #FFAF00;
+    text-align: center;
+}
+
+.career__form-wrapper {
+    padding: 100px 0;
+}
+
+.career__form-wrapper input, .career__form-wrapper textarea, .career__form-wrapper button {
+    margin: 0 5px;
+}
+
+.career__form-wrapper form .input-cv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.career__form-wrapper form .submit-btn {
+    background: #FFAF00;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 10px;
+}
