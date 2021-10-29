@@ -1,0 +1,42 @@
+.services__content {
+    padding: 60px 0;
+    min-height: 90vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.services__row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services__content .title {
+    color: #ffaf00;
+}
+
+.services__content .subtitle {
+    color: #ffaf00;
+}
+
+.services__image img {
+    width: 100%;
+    animation: fadeInRight 1s ease-in-out;
+}
+
+.services p {
+    color: #6d6e71;
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(300px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
